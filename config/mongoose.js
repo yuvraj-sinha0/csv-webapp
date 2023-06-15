@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/csvUploads');
+mongoose.connect('mongodb+srv://aragye497:aragye497@cluster1.zcg4zmp.mongodb.net/?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 
